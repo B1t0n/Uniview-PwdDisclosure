@@ -1,5 +1,4 @@
-#Uniview NVR remote passwords disclosure
-#Author: B1t0N
+# Uniview NVR remote passwords disclosure
 
 The Uniview NVR web application does not enforce authorizations on the main.cgi file when requesting json data.
 It means that you can do anything without authentication, however you must know the request structure.
