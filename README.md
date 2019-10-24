@@ -12,10 +12,10 @@ MD5 with the one disclosed using this script
 
 
 Tested on the following models:
-  NVR304-16E - Software Version B3118P26C00510
-  NVR301-08-P8 - Software Version B3218P26C00512
-						version B3220P11
-						version B3219P22
+NVR304-16E - Software Version B3118P26C00510
+NVR301-08-P8 - Software Version B3218P26C00512
+- version B3220P11
+- version B3219P22
 
  Other versions may also be affected
 
