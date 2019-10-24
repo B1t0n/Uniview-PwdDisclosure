@@ -19,7 +19,7 @@ Tested on the following models:
 
  Other versions may also be affected
 
-> Sodan dork for similar devices: "Text.VideoManageSystem"
+> Shodan dork for similar devices: "Text.VideoManageSystem"
 
 Usage: python nvr-pwd-disc.py http://Host_or_IP:PORT
 
